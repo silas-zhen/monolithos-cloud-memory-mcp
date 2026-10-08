@@ -58,6 +58,11 @@ from installing a custom connection.
 
 ### Gemini CLI
 
+Google has moved free and Google One consumer access to Antigravity CLI.
+Gemini CLI remains available for supported enterprise licenses and paid API
+access. See [Google's transition announcement](https://developers.googleblog.com/an-important-update-transitioning-gemini-cli-to-antigravity-cli/).
+This extension targets Gemini CLI; the Monolithos connector itself is free.
+
 Install the extension from this public repository:
 
 ```sh
