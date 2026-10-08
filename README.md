@@ -56,6 +56,26 @@ Cursor discovers the OAuth flow from the server. No API key or client secret is
 included in this repository. Directory submission and approval are separate
 from installing a custom connection.
 
+### Gemini CLI
+
+Install the extension from this public repository:
+
+```sh
+gemini extensions install https://github.com/silas-zhen/monolithos-cloud-memory-mcp
+```
+
+Review and accept Gemini CLI's installation prompt, then start a new CLI session.
+Complete the Monolithos browser sign-in and approve read-only access to your
+chosen Vault. If the CLI shows that authentication is required, use:
+
+```text
+/mcp auth monolithos-cloud-memory
+```
+
+The root `gemini-extension.json` uses Streamable HTTP (`httpUrl`) and automatic
+OAuth discovery. It contains no API key or client secret. Installation adds the
+connection; it does not authorize access to a Vault by itself.
+
 ## Try it
 
 - “Search my notes for a phrase using keyword mode and show original excerpts.”

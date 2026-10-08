@@ -1,0 +1,10 @@
+{
+  "name": "monolithos-cloud-memory",
+  "version": "0.2.0",
+  "description": "Recall authorized Monolithos Vault notes with keyword and hybrid search, original excerpts, and source paths.",
+  "mcpServers": {
+    "monolithos-cloud-memory": {
+      "httpUrl": "https://api.monolithos.ai/api/shadow/mcp"
+    }
+  }
+}
