@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "monolithos-cloud-memory": {
+      "url": "https://api.monolithos.ai/api/shadow/mcp"
+    }
+  }
+}

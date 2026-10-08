@@ -1,0 +1,35 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.monolithos/cloud-memory",
+  "title": "Monolithos",
+  "description": "Recall authorized Vault notes with keyword and hybrid search, original excerpts, and source paths.",
+  "version": "0.2.0",
+  "websiteUrl": "https://monolithos.ai",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.monolithos.ai/api/shadow/mcp"
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://api.monolithos.ai/api/shadow/brand/logo-v1.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "_meta": {
+    "io.modelcontextprotocol.registry/publisher-provided": {
+      "monolithos": {
+        "publisher": "Monolithos, LLC",
+        "authentication": "OAuth 2.0 with dynamic client registration and PKCE; memory:read scope; account and Vault consent required.",
+        "read_only": true,
+        "tool": "monolithos_recall_memory",
+        "support_url": "https://monolithos.ai/support.html",
+        "privacy_policy_url": "https://monolithos.ai/cloud-memory-privacy.html",
+        "terms_url": "https://monolithos.ai/terms.html",
+        "demo_url": "https://monolithos.ai/review/monolithos-mcp-20261008/"
+      }
+    }
+  }
+}

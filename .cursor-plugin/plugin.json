@@ -1,0 +1,15 @@
+{
+  "name": "monolithos-cloud-memory",
+  "version": "0.2.0",
+  "description": "Recall authorized Monolithos Vault notes with keyword and hybrid search, original excerpts, and source paths.",
+  "author": {
+    "name": "Monolithos, LLC",
+    "email": "hello@monolithos.ai"
+  },
+  "homepage": "https://monolithos.ai",
+  "repository": "https://github.com/silas-zhen/monolithos-cloud-memory-mcp",
+  "license": "MIT",
+  "keywords": ["memory", "notes", "vault", "knowledge", "mcp"],
+  "logo": "logo.png",
+  "mcpServers": "mcp.json"
+}
