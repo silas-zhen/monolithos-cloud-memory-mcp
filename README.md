@@ -81,6 +81,29 @@ The root `gemini-extension.json` uses Streamable HTTP (`httpUrl`) and automatic
 OAuth discovery. It contains no API key or client secret. Installation adds the
 connection; it does not authorize access to a Vault by itself.
 
+### Antigravity
+
+Antigravity's remote MCP configuration uses `serverUrl`:
+
+```json
+{
+  "mcpServers": {
+    "monolithos-cloud-memory": {
+      "serverUrl": "https://api.monolithos.ai/api/shadow/mcp"
+    }
+  }
+}
+```
+
+Add this entry to your MCP configuration, then use **Authenticate** in
+Customizations and follow Antigravity's browser authorization instructions.
+Monolithos supports OAuth discovery, dynamic client registration, and PKCE;
+no API key or client secret is needed in the configuration.
+
+See [Antigravity's official MCP configuration guide](https://antigravity.google/docs/mcp).
+Antigravity client authorization and recall have not yet been tested for this
+connector. Monolithos is not yet listed in Antigravity's MCP Store.
+
 ## Try it
 
 - “Search my notes for a phrase using keyword mode and show original excerpts.”
