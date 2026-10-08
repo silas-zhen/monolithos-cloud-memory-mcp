@@ -26,6 +26,17 @@ and PKCE. Users do not need to copy a token or an authorization code into this
 plugin's configuration. The client completes its normal browser callback.
 Installing the plugin does not upload a local Vault or authorize cloud sync.
 
+### Cost and eligibility
+
+The connector is free to install and use, with no separate connector fee or
+purchase flow. It requires a Monolithos account and a Vault with Cloud Memory
+enabled in the Monolithos app.
+
+Monolithos subscriptions and AI allowances are managed at the platform level.
+Trial users can also use this connector with their included AI allowance.
+Hybrid search uses the account's existing query embedding allowance; keyword
+search does not call an embedding provider.
+
 ### Cursor configuration
 
 The repository includes a Cursor plugin manifest, `mcp.json`, and the official
